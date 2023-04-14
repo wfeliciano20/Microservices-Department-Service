@@ -16,6 +16,7 @@ import lombok.Setter;
 @NoArgsConstructor
 public class DepartmentDto {
 
+    @NotEmpty
     private Long id;
     @Schema(
             description = "Deparment Name"
